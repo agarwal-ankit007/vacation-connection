@@ -1,0 +1,211 @@
+CREATE TABLE CARS
+(
+	car_id varchar(20) primary key,
+	source varchar(30),
+	destination varchar(30),
+	type varchar(20),
+	price int,
+	img varchar(30)
+);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'ajmer' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'ajmer' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'ajmer' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('goa' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'ajmer' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'ajmer' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'ajmer' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('manali' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'ajmer' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'ajmer' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'ajmer' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('dharamshala' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('ajmer' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'ajmer' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'ajmer' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'ajmer' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('mumbai' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'ajmer' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'ajmer' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'ajmer' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'amritsar' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'amritsar' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('kutch' , 'amritsar' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'goa' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'goa' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'goa' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'manali' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'manali' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'manali' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'dharamshala' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'dharamshala' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'dharamshala' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'kutch' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'kutch' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'kutch' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'jammu' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'jammu' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'jammu' , 'suv' , 6000);
+
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'sedan' , 4000);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'mini' , 3600);
+INSERT INTO CARS (source,destination,type,price) values('amritsar' , 'mumbai' , 'suv' , 6000);
+
+
+
+update cars set img = "images/cars/mini.png" where type = "mini";
+
+update cars set img = "images/cars/sedan.png" where type = "sedan";
+
+update cars set img = "images/cars/suv.png" where type = "suv";
+
+

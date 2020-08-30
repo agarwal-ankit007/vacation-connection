@@ -1,0 +1,26 @@
+create table books_car
+(
+	bid int primary key,
+	pickup varchar(50),
+	date date,
+	days int,
+	type varchar(20),
+	cost int,
+	cus_id int references customer(cus_id) on delete cascade,
+	car_id int references cars(car_id) on delete set null
+);
+
+
+create table books_activities
+(
+	bid int primary key,
+	location varchar(50),
+	date date,
+	persons int,
+	type varchar(20),
+	cost int,
+	cus_id int references customer(cus_id) on delete cascade,
+	act_id int references cars(car_id) on delete set null
+);
+
+

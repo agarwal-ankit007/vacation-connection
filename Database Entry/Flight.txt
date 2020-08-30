@@ -1,0 +1,200 @@
+CREATE TABLE FLIGHT
+(
+	fid varchar(20) primary key,
+	company varchar(30),
+	source varchar(30),
+	destination varchar(30),
+	departure time,
+	arrival time,
+	price int,
+	tseats int,
+	icon varchar(50)
+);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2721' , 'indigo' , 'goa' , 'jammu' , '09:00:00' , '11:30:00' , 4500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2722' , 'indigo' , 'jammu' , 'goa' , '17:40:00' , '20:15:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2731' , 'indigo' , 'goa' , 'jammu' , '12:00:00' , '14:30:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2732' , 'indigo' , 'jammu' , 'goa' , '19:10:00' , '21:25:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1211' , 'spicejet' , 'goa' , 'jammu' , '16:30:00' , '18:55:00' , 3850 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1212' , 'spicejet' , 'jammu' , 'goa' , '20:15:00' , '22:45:00' , 3850 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3731' , 'air asia' , 'goa' , 'jammu' , '06:45:00' , '09:25:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3732' , 'air asia' , 'jammu' , 'goa' , '14:00:00' , '16:25:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3501' , 'air asia' , 'goa' , 'jammu' , '19:25:00' , '21:45:00' , 5000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3502' , 'air asia' , 'jammu' , 'goa' , '06:05:00' , '08:25:00' , 3000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4501' , 'go air' , 'goa' , 'jammu' , '21:55:00' , '00:05:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4502' , 'go air' , 'jammu' , 'goa' , '12:25:00' , '14:55:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4121' , 'go air' , 'goa' , 'jammu' , '10:45:00' , '13:10:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4122' , 'go air' , 'jammu' , 'goa' , '10:45:00' , '13:10:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2221' , 'indigo' , 'goa' , 'amritsar' , '10:15:00' , '12:00:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2222' , 'indigo' , 'amritsar' , 'goa' , '18:45:00' , '20:10:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2391' , 'indigo' , 'goa' , 'amritsar' , '18:15:00' , '19:30:00' , 3800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2392' , 'indigo' , 'amritsar' , 'goa' , '12:45:00' , '14:10:00' , 3900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1491' , 'air india' , 'goa' , 'amritsar' , '15:55:00' , '17:05:00' , 4800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1492' , 'air india' , 'amritsar' , 'goa' , '10:15:00' , '11:35:00' , 5000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1571' , 'air india' , 'goa' , 'ajmer' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1572' , 'air india' , 'ajmer' , 'goa' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1571' , 'air india' , 'goa' , 'ajmer' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1572' , 'air india' , 'ajmer' , 'goa' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1911' , 'spicejet' , 'goa' , 'dharamshala' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1912' , 'spicejet' , 'dharamshala' , 'goa' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SA-3401' , 'spicejet' , 'goa' , 'dharamshala' , '12:55:00' , '14:45:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3402' , 'spicejet' , 'dharamshala' , 'goa' , '08:15:00' , '10:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2511' , 'indigo' , 'goa' , 'dharamshala' , '20:00:00' , '22:15:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2512' , 'indigo' , 'dharamshala' , 'goa' , '12:15:00' , '14:25:00' , 2900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2011' , 'indigo' , 'goa' , 'mumbai' , '06:30:00' , '07:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2012' , 'indigo' , 'mumbai' , 'goa' , '18:15:00' , '19:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2011' , 'indigo' , 'goa' , 'mumbai' , '12:55:00' , '13:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2012' , 'indigo' , 'mumbai' , 'goa' , '08:15:00' , '09:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9991' , 'vistara' , 'goa' , 'mumbai' , '08:15:00' , '09:25:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9992' , 'vistara' , 'mumbai' , 'goa' , '14:15:00' , '15:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2011' , 'indigo' , 'goa' , 'mumbai' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2012' , 'indigo' , 'mumbai' , 'goa' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2031' , 'indigo' , 'goa' , 'andaman' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2032' , 'indigo' , 'andaman' , 'goa' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-2011' , 'air india' , 'goa' , 'andaman' , '06:30:00' , '07:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-2012' , 'air india' , 'andaman' , 'goa' , '18:15:00' , '19:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2011' , 'indigo' , 'goa' , 'andaman' , '12:55:00' , '13:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2012' , 'indigo' , 'andaman' , 'goa' , '08:15:00' , '09:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9991' , 'vistara' , 'goa' , 'andaman' , '08:15:00' , '09:25:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9992' , 'vistara' , 'andaman' , 'goa' , '14:15:00' , '15:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2723' , 'indigo' , 'mumbai' , 'jammu' , '09:00:00' , '11:30:00' , 4500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2724' , 'indigo' , 'jammu' , 'mumbai' , '17:40:00' , '20:15:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2733' , 'indigo' , 'mumbai' , 'jammu' , '12:00:00' , '14:30:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2734' , 'indigo' , 'jammu' , 'mumbai' , '19:10:00' , '21:25:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1213' , 'spicejet' , 'mumbai' , 'jammu' , '16:30:00' , '18:55:00' , 3850 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1214' , 'spicejet' , 'jammu' , 'mumbai' , '20:15:00' , '22:45:00' , 3850 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3733' , 'air asia' , 'mumbai' , 'jammu' , '06:45:00' , '09:25:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3734' , 'air asia' , 'jammu' , 'mumbai' , '14:00:00' , '16:25:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3503' , 'air asia' , 'mumbai' , 'andaman' , '19:25:00' , '21:45:00' , 5000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3504' , 'air asia' , 'andaman' , 'mumbai' , '06:05:00' , '08:25:00' , 3000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4503' , 'go air' , 'mumbai' , 'andaman' , '21:55:00' , '00:05:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4504' , 'go air' , 'andaman' , 'mumbai' , '12:25:00' , '14:55:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4123' , 'go air' , 'mumbai' , 'andaman' , '10:45:00' , '13:10:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4124' , 'go air' , 'andaman' , 'mumbai' , '10:45:00' , '13:10:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2223' , 'indigo' , 'mumbai' , 'amritsar' , '10:15:00' , '12:00:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2224' , 'indigo' , 'amritsar' , 'mumbai' , '18:45:00' , '20:10:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2393' , 'indigo' , 'mumbai' , 'amritsar' , '18:15:00' , '19:30:00' , 3800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2394' , 'indigo' , 'amritsar' , 'mumbai' , '12:45:00' , '14:10:00' , 3900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1493' , 'air india' , 'mumbai' , 'amritsar' , '15:55:00' , '17:05:00' , 4800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1494' , 'air india' , 'amritsar' , 'mumbai' , '10:15:00' , '11:35:00' , 5000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1573' , 'air india' , 'mumbai' , 'ajmer' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1574' , 'air india' , 'ajmer' , 'mumbai' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1573' , 'air india' , 'mumbai' , 'ajmer' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1574' , 'air india' , 'ajmer' , 'mumbai' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1913' , 'spicejet' , 'mumbai' , 'dharamshala' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1914' , 'spicejet' , 'dharamshala' , 'mumbai' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SA-3403' , 'spicejet' , 'mumbai' , 'dharamshala' , '12:55:00' , '14:45:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3404' , 'spicejet' , 'dharamshala' , 'mumbai' , '08:15:00' , '10:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2513' , 'indigo' , 'mumbai' , 'dharamshala' , '20:00:00' , '22:15:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2514' , 'indigo' , 'dharamshala' , 'mumbai' , '12:15:00' , '14:25:00' , 2900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2013' , 'indigo' , 'kutch' , 'mumbai' , '06:30:00' , '07:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2014' , 'indigo' , 'mumbai' , 'kutch' , '18:15:00' , '19:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2013' , 'indigo' , 'kutch' , 'mumbai' , '12:55:00' , '13:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2014' , 'indigo' , 'mumbai' , 'kutch' , '08:15:00' , '09:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9993' , 'vistara' , 'kutch' , 'mumbai' , '08:15:00' , '09:25:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9994' , 'vistara' , 'mumbai' , 'kutch' , '14:15:00' , '15:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2013' , 'indigo' , 'kutch' , 'mumbai' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2014' , 'indigo' , 'mumbai' , 'kutch' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2033' , 'indigo' , 'goa' , 'andaman' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2034' , 'indigo' , 'andaman' , 'goa' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-2013' , 'air india' , 'goa' , 'andaman' , '06:30:00' , '07:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-2014' , 'air india' , 'andaman' , 'goa' , '18:15:00' , '19:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2013' , 'indigo' , 'goa' , 'andaman' , '12:55:00' , '13:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2014' , 'indigo' , 'andaman' , 'goa' , '08:15:00' , '09:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9993' , 'vistara' , 'goa' , 'andaman' , '08:15:00' , '09:25:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('VS-9994' , 'vistara' , 'andaman' , 'goa' , '14:15:00' , '15:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2725' , 'indigo' , 'ajmer' , 'amritsar' , '09:00:00' , '11:30:00' , 4500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2726' , 'indigo' , 'amritsar' , 'ajmer' , '17:40:00' , '20:15:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2735' , 'indigo' , 'ajmer' , 'amritsar' , '12:00:00' , '14:30:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2736' , 'indigo' , 'amritsar' , 'ajmer' , '19:10:00' , '21:25:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1215' , 'spicejet' , 'ajmer' , 'jammu' , '16:30:00' , '18:55:00' , 3850 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1216' , 'spicejet' , 'jammu' , 'ajmer' , '20:15:00' , '22:45:00' , 3850 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3735' , 'air asia' , 'ajmer' , 'jammu' , '06:45:00' , '09:25:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3736' , 'air asia' , 'jammu' , 'ajmer' , '14:00:00' , '16:25:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3505' , 'air asia' , 'ajmer' , 'kutch' , '19:25:00' , '21:45:00' , 5000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3506' , 'air asia' , 'kutch' , 'ajmer' , '06:05:00' , '08:25:00' , 3000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4505' , 'go air' , 'kutch' , 'amritsar' , '21:55:00' , '00:05:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4506' , 'go air' , 'amritsar' , 'kutch' , '12:25:00' , '14:55:00' , 3500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4125' , 'go air' , 'kutch' , 'amritsar' , '10:45:00' , '13:10:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('GA-4126' , 'go air' , 'amritsar' , 'kutch' , '10:45:00' , '13:10:00' , 4200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2225' , 'indigo' , 'kutch' , 'amritsar' , '10:15:00' , '12:00:00' , 4200 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2226' , 'indigo' , 'amritsar' , 'kutch' , '18:45:00' , '20:10:00' , 4500 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2395' , 'indigo' , 'kutch' , 'jammu' , '18:15:00' , '19:30:00' , 3800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2396' , 'indigo' , 'jammu' , 'kutch' , '12:45:00' , '14:10:00' , 3900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1495' , 'air india' , 'kutch' , 'jammu' , '15:55:00' , '17:05:00' , 4800 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-1496' , 'air india' , 'jammu' , 'kutch' , '10:15:00' , '11:35:00' , 5000 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1575' , 'air india' , 'kutch' , 'manali' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1576' , 'air india' , 'manali' , 'kutch' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1575' , 'air india' , 'kutch' , 'manali' , '10:30:00' , '11:30:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AI-1576' , 'air india' , 'manali' , 'kutch' , '13:15:00' , '14:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1915' , 'spicejet' , 'kutch' , 'dharamshala' , '06:30:00' , '08:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SJ-1916' , 'spicejet' , 'dharamshala' , 'kutch' , '18:15:00' , '20:25:00' , 2700 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('SA-3405' , 'spicejet' , 'kutch' , 'dharamshala' , '12:55:00' , '14:45:00' , 3000 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('AA-3406' , 'spicejet' , 'dharamshala' , 'kutch' , '08:15:00' , '10:25:00' , 3200 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2515' , 'indigo' , 'kutch' , 'ajmer' , '20:00:00' , '22:15:00' , 3500 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2516' , 'indigo' , 'ajmer' , 'kutch' , '12:15:00' , '14:25:00' , 2900 , 66);
+
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2015' , 'indigo' , 'kutch' , 'ajmer' , '06:30:00' , '07:15:00' , 2400 , 66);
+INSERT INTO FLIGHT(fid,company,source,destination,departure,arrival,price,tseats) values('IG-2016' , 'indigo' , 'ajmer' , 'kutch' , '18:15:00' , '19:25:00' , 2700 , 66);
+
+

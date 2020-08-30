@@ -1,0 +1,3 @@
+select f.source , f.destination , bf.res_date , bf.bid 
+from flight f , books_flight bf
+where f.fid = bf.fid and bf.cus_id = '$cus_id';
